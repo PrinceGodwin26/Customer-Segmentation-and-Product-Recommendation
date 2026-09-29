@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.streamlit/
+
+# Real transactional data stays local-only; the synthetic placeholder
+# (data/placeholder_data.csv) is the only dataset tracked in git.
+data/data.csv
